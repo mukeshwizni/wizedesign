@@ -7520,3 +7520,14 @@ color: #ed5565;
   min-height: 300px;
   text-align: left;
   }
+
+  body.fixed-sidebar.mini-navbar .navbar-static-side {
+  width: 70px;
+}
+body.fixed-sidebar.mini-navbar #page-wrapper {
+  margin: 0 0 0 70px;
+}
+body.fixed-sidebar.mini-navbar .nav-label, body.fixed-sidebar.mini-navbar .navbar-default .nav li a span,
+body:not(.canvas-menu).mini-navbar .nav-second-level {
+  display: none;
+}
